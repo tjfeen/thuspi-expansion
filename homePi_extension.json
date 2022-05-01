@@ -1,6 +1,6 @@
 {
-  "name": "Recent events",
-  "description": "Adds a recent events widget for your dashboard",
+  "name": "homePi Expansion",
+  "description": "Adds a ton of new features to your homePi installation.",
   "features": {
     "dashboard/widgets": {
       "recent_events": {
