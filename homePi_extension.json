@@ -1,4 +1,13 @@
 {
   "name": "Recent events",
   "description": "Adds a recent events widget for your dashboard"
+  "features": {
+    "dashboard/widgets": {
+      "recent_events": {
+        "name": "jeroen",
+        "description": "henk",
+        "enabled": true
+      }
+    }
+  }
 }
