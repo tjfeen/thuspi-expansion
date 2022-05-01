@@ -1,6 +1,6 @@
 {
   "name": "Recent events",
-  "description": "Adds a recent events widget for your dashboard"
+  "description": "Adds a recent events widget for your dashboard",
   "features": {
     "dashboard/widgets": {
       "recent_events": {
