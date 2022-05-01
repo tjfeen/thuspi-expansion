@@ -4,8 +4,6 @@
   "features": {
     "dashboard/widgets": {
       "recent_events": {
-        "name": "jeroen",
-        "description": "henk",
         "enabled": true
       }
     }
