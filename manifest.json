@@ -2,10 +2,10 @@
   "name": "homioPi Expansion",
   "description": "Adds a ton of new features!",
   "features": {
-    "dashboard/widgets": {
-      "recent_events": {
-        "enabled": true
-      }
-    }
+    "dashboard/widgets": [
+      "recent_events",
+      "clock_analog",
+      "clock_digital"
+    ]
   }
 }
