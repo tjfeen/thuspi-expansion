@@ -1,6 +1,6 @@
 {
-  "name": "homePi Expansion",
-  "description": "Adds a ton of new features to your homePi installation.",
+  "name": "homioPi Expansion",
+  "description": "Adds a ton of new features!",
   "features": {
     "dashboard/widgets": {
       "recent_events": {
