@@ -1,11 +1,18 @@
 {
-  "name": "Expansion",
-  "description": "Adds a ton of new features!",
-  "features": {
-    "dashboard/widgets": [
-      "recent_events",
-      "clock_analog",
-      "clock_digital"
-    ]
-  }
+    "name": "thusPi Expansion",
+    "description": "Adds a ton of new features to your thusPi installation.",
+    "features": {
+        "dashboard/widgets": [
+            "clock_digital",
+            "clock_analog",
+            "recent_events",
+            "openweathermap"
+        ]
+    },
+    "hooks": {
+        "devices/value_change": [
+            "recent_events"
+        ]
+    },
+    "enabled": true
 }
