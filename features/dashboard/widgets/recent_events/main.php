@@ -3,6 +3,11 @@
 	$extension = new \thusPi\Extensions\Extension(EXTENSION_ID);
 
 	$recent_events = array_reverse($extension->getData('recent_events') ?? []);
+
+	// Return simple message if no recent events have been found
+	if(empty($recent_events)) {
+		exit('<span class="text-muted">'.$extension->translate(TRANSLATION_PREFIX.'no_recent_events').'</span>');
+	}
 ?>
 <div class="activities">
 	<?php foreach ($recent_events as $event) : ?>
@@ -19,12 +24,12 @@
 
 					if($event['related']['device_value'] == 'on' || $event['related']['device_value'] == 'off') {
 						$event_description = $extension->translate(
-							"features.dashboard/widgets.recent_events.event.device_toggled_{$event['related']['device_value']}", 
+							TRANSLATION_PREFIX."event.device_toggled_{$event['related']['device_value']}", 
 							[$device->getProperty('name')]
 						);
 					} else {
 						$event_description = $extension->translate(
-							'features.dashboard/widgets.recent_events.event.device_changed', 
+							TRANSLATION_PREFIX.'event.device_changed', 
 							[$device->getProperty('name'), $event['related']['device_shown_value'] ?? $event['related']['device_value']]
 						);
 					}
