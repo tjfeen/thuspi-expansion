@@ -1,0 +1,30 @@
+{
+    "features.dashboard/widgets.recent_events.title": "Recente activiteiten",
+    "features.dashboard/widgets.recent_events.event.device_changed": "%0 werd ingesteld op %1.",
+    "features.dashboard/widgets.recent_events.event.device_toggled_on": "%0 werd aangezet.",
+    "features.dashboard/widgets.recent_events.event.device_toggled_off": "%0 werd uitgezet.",
+
+    "features.dashboard/widgets.openweathermap.title": "Weer",
+    "features.dashboard/widgets.openweathermap.weather.description.broken_clouds": "Gebroken wolken",
+    "features.dashboard/widgets.openweathermap.weather.description.clear_sky": "Helder",
+    "features.dashboard/widgets.openweathermap.weather.description.drizzle": "Motregen",
+    "features.dashboard/widgets.openweathermap.weather.description.few_clouds": "Weinig wolken",
+    "features.dashboard/widgets.openweathermap.weather.description.light_thunderstorm": "Lichte onweersbui",
+    "features.dashboard/widgets.openweathermap.weather.description.mist": "Mistig",
+    "features.dashboard/widgets.openweathermap.weather.description.overcast_clouds": "Bewolkt",
+    "features.dashboard/widgets.openweathermap.weather.description.rain": "Regen",
+    "features.dashboard/widgets.openweathermap.weather.description.scattered_clouds": "Licht bewolkt",
+    "features.dashboard/widgets.openweathermap.weather.description.shower_rain": "Afwisselend regen",
+    "features.dashboard/widgets.openweathermap.weather.description.snow": "Sneeuw",
+    "features.dashboard/widgets.openweathermap.weather.description.thunderstorm": "Onweersbui",
+    "features.dashboard/widgets.openweathermap.weather.information.next_precipitation_in": "Eerstvolgende neerslag %0",
+    "features.dashboard/widgets.openweathermap.weather.information.precipitation_ends_in": "Het wordt %0 droog",
+    "features.dashboard/widgets.openweathermap.weather.information.no_precipitation_forecasted": "Geen neerslag voorspeld",
+    "features.dashboard/widgets.openweathermap.weather.property.humidity": "Luchtvochtigheid",
+    "features.dashboard/widgets.openweathermap.weather.property.clouds": "Bewolking",
+    "features.dashboard/widgets.openweathermap.weather.property.temperature": "Temperatuur",
+    "features.dashboard/widgets.openweathermap.weather.property.feels_like": "Gevoelstemperatuur",
+
+    "features.dashboard/widgets.clock_analog.title": "Analoge klok",
+    "features.dashboard/widgets.clock_digital.title": "Digitale klok"
+}

@@ -1,0 +1,73 @@
+.clock-wrapper {
+	border-radius: 50%;
+	position: relative;
+	width: 150px;
+	padding-top: 150px;
+	margin: 0 auto;
+}
+
+.clock {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: var(--primary);
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid var(--tertiary);
+}
+
+.clock-hand {
+	position: absolute;
+	height: 6px;
+	margin-top: -3px;
+	margin-left: -3px;
+	transform-origin: 3px 50%;
+	border-radius: var(--u3);
+	top: 50%;
+	left: 50%;
+}
+
+.clock-second-hand {
+	background: var(--success);
+	height: 2px;
+	margin-top: -1px;
+	margin-left: -1px;
+	transform-origin: 1px 50%;
+	width: calc(40% - 5px);
+	z-index: 1;
+}
+
+.clock-minute-hand {
+	background: var(--danger);
+	width: calc(45% - 5px);
+	z-index: 2;
+}
+
+.clock-hour-hand {
+	background: var(--info);
+	width: calc(35% - 5px);
+	z-index: 3;
+}
+
+.clock-dot {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: var(--secondary);
+}
+
+.clock-dash {
+	position: absolute;
+	height: 1px;
+	width: 15px;
+	background: var(--secondary);
+	top: calc(50% - (1px/2));
+	left: calc(15px/-3);
+	transform-origin: 75px 0;
+}

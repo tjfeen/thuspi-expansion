@@ -1,0 +1,5 @@
+{
+    "features.dashboard/widgets.recent_events.title": "Recent events",
+    "features.dashboard/widgets.clock_analog.title": "Analog clock",
+    "features.dashboard/widgets.clock_digital.title": "Digital clock"
+}

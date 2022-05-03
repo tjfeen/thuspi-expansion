@@ -1,0 +1,29 @@
+@font-face {
+	font-family: DS-Digital; 
+	src: url('assets/css/_fonts/ds-digital.woff2'); 
+}
+
+.clock {
+	font-family: 'DS-Digital';
+	margin: 0 auto;
+	display: table;
+	border-radius: var(--u3);
+	border: 5px solid var(--tertiary);
+	overflow: hidden;
+	padding: 0 0.25rem;
+	background: var(--primary);
+	user-select: none;
+}
+
+.clock-digit {
+	display: table-cell;
+	font-size: 2.5rem;
+	padding: 0 0.25rem;
+	text-align: center;
+	color: var(--danger);
+}
+
+.clock-digit-number {
+	width: 0.75em;
+	text-align: right;
+}

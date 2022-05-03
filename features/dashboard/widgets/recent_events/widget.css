@@ -1,0 +1,39 @@
+.activities {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.activities::before {
+	content: '';
+	position: absolute;
+	left: 4.5px;
+	top: 5px;
+	bottom: 0;
+	border-left: 1px solid var(--warning);
+}
+
+.activity {
+	position: relative;
+	width: 100%;
+	padding-left: calc(var(--u3) + 10px);
+	margin-top: -5px;
+	margin-bottom: var(--u3);
+}
+
+.activity::before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 5px;
+	left: 0;
+	background-color: var(--warning);
+	border-radius: 50%;
+}
+
+.activity:nth-child(n+5) {
+	display: none;
+}
