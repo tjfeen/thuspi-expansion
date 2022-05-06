@@ -12,7 +12,7 @@
 	left: 4.5px;
 	top: 5px;
 	bottom: 0;
-	border-left: 1px solid var(--warning);
+	border-left: 1px solid var(--yellow);
 }
 
 .activity {
@@ -30,7 +30,7 @@
 	height: 10px;
 	top: 5px;
 	left: 0;
-	background-color: var(--warning);
+	background-color: var(--yellow);
 	border-radius: 50%;
 }
 

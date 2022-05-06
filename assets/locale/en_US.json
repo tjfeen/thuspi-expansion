@@ -3,7 +3,7 @@
     "features.dashboard/widgets.recent_events.event.device_changed": "%0 was set to %1",
     "features.dashboard/widgets.recent_events.event.device_toggled_on": "%0 was toggled on",
     "features.dashboard/widgets.recent_events.event.device_toggled_off": "%0 was toggled off",
-    "features.dashboard/widgets.recent_events.no_recent_events": "Failed to find any recent events.",
+    "features.dashboard/widgets.recent_events.no_recent_events": "No recent events found.",
 
     "features.dashboard/widgets.clock_analog.title": "Analog clock",
     "features.dashboard/widgets.clock_digital.title": "Digital clock"
